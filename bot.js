@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+require('dotenv').config();
+
 const channelName = "counting";
 
 const countingName = "counting";
@@ -35,4 +37,4 @@ client.on('messageReactionAdd', (reaction, user) => {
 	}
 });
 
-client.login('Nzk5MzQ1NDYzNjI2MDM5MzQ3.YACOeQ.Mm0l3W7vYO5dAUZvL-T2cF5Itmg');
+client.login();

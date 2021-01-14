@@ -10,7 +10,7 @@ const ballotBoxEmojiName = '☑️';
 const whiteCheckEmojiName = '✅';
 
 const intervalTrigger = 300;
-const roleId = '799370433492287598';
+const roleId = '799378989025198121';
 const resetRoleAt = 86400000;
 
 client.once('ready', () => {
